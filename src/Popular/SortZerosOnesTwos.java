@@ -31,7 +31,6 @@ public class SortZerosOnesTwos {
 
         System.out.println("Zeros are "+zero);
         System.out.println("Ones are "+one);
-
         System.out.println("Twos are "+two);
 
 
@@ -41,14 +40,11 @@ public class SortZerosOnesTwos {
             a[count]=0;
             count++;
 
-
         }
         for(int i=0;i<one;i++){
 
             a[count]=1;
             count++;
-
-
         }
         for(int i=0;i<two;i++){
 
@@ -57,7 +53,5 @@ public class SortZerosOnesTwos {
             count++;
 
         }
-
-
     }
 }
